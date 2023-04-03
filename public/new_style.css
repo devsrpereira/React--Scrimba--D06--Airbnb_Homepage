@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: Poppins, -apple-system, monospace;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+
+
+.hdr{
+    display: flex;
+    width: 100vw;
+    box-shadow: 0 2.5px 8px rgba(0, 0, 0, 0.361);
+}
+.hdr_img{
+    width: 150px;
+    padding: 15px;
+}
+
+
+.main_content{
+    margin: 0 30px;
+}
+.main_imgs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10vw;
+    
+}
+.imgs_colum{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+.main_imgs img{
+    width: 9vw;
+    height: 13vw;
+    margin: 0 1vw 0 0;
+    border-radius: 20px;
+}
+.imgs_colum01{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vw;
+}
+.imgs_colum02{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+.imgs_colum03{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vw;
+}
+.imgs_colum04{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+.imgs_colum05{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+}
+.main_title{
+    font-size: 3em;
+    margin-top: 1.5vw;
+    margin-left: -10vw;
+}
+.main_prgf{
+    margin-left: -9vw;
+    width: 24vw;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+
+.card_carrosel{
+    width: 80vw;
+    margin: 50px 0 0 0px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    gap: 2vw;
+    position: relative;
+}
+.card_carrosel img{
+    width: 300px;
+    height: 500px;
+    border-radius: 18px;
+}
+.soldout{
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    background-color: gainsboro;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card_score{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #808080a1;
+}
+strong{
+    color: black;
+}
+ion-icon{
+    color: red;
+}
+.card_prgf{
+    width: 290px;
+    margin: 7px;    
+}
+.card_price{
+    margin: 0 0 20px 7px;
+}
+
+/*GATOS*/
+.contacts_card{
+    display: flex;
+    gap: 20px;
+}
+.contacts{
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.304);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.contact-card{
+    text-align: center;
+}
+.contact-card img{
+    width: 250px;
+    border-radius: 8px;
+}
+.info-group{
+    text-align: left;
+}
+.contact-card h3{
+    margin: 10px 0;
+}
+.info-group p{
+    padding: 5px;
+}
